@@ -4,13 +4,10 @@ from calculator_1 import add, sub, mul, div
 
 
 def main():
-    if len(argv) - 1 == 0:
+    if len(argv) - 1 < 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
 
-    elif len(argv) - 1 in [1, 2]:
-        exit(1)
-    
     elif argv[2] not in ['+', '-', '*', '/']:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
