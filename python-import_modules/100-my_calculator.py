@@ -18,13 +18,13 @@ def main():
     operator = argv[2]
 
     if operator == '+':
-        print("{}".format(add(a, b)))
+        print("{} {} = {}".format(a, operator, b, add(a, b)))
     elif operator == '-':
-        print("{}".format(sub(a, b)))
+        print("{} {} = {}".format(a, operator, b, sub(a, b)))
     elif operator == '*':
-        print("{}".format(mul(a, b)))
+        print("{} {} = {}".format(a, operator, b, mul(a, b)))
     else:
-        print("{}".format(div(a, b)))
+        print("{} {} = {}".format(a, operator, b, div(a, b)))
 
 
 if __name__ == "__main__":
