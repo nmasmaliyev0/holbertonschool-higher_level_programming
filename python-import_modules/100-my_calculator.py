@@ -9,7 +9,7 @@ def main():
         exit(1)
 
     
-    elif argv[2] not in ['+', '-', '*', '/']:
+    elif not argv[2] and argv[2] not in ['+', '-', '*', '/']:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
 
