@@ -7,12 +7,12 @@ def main():
         print("{} arguments.".format(0))
         return
     elif len(argv) - 1 == 1:
-        print("{} argument:".format(argv[1]))
+        print("{} argument:".format(1))
     else:
         print("{} arguments:".format(len(argv) - 1))
 
     for i in range(1, len(argv) - 1):
-        print("{}: arguments".format(i, argv[i]))
+        print("{}: {}".format(i, argv[i]))
 
 
 if __name__ == "__main__":
