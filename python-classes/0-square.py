@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-""""This module provides foundations of python class structures and their syntax."""
+"""This module introduces basic Python class structure and syntax."""
 
 
 class Square:
-    """This class represents a square"""
+    """This class represents a square."""
     pass
