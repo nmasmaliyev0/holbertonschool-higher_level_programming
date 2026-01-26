@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module introduces basic Python class structure and private attributes."""
+"""This module introduces basic Python class structure, private attributes."""
 
 
 class Square:
