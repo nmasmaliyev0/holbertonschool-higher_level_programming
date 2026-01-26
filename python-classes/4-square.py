@@ -6,12 +6,14 @@ class Square:
     """This class represents a square."""
     def __init__(self, size=0):
         """Initialiing a Square instance object with a given size"""
-        self.__size = size
+        self.size = size
 
+    @property
     def size(self):
         """Using Getter for retrieving size"""
         return self.__size
 
+    @size.setter
     def size(self, size):
         """Using Setter to accept value for the __size by validation"""
         if type(size) is not int:
