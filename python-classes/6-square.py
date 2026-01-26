@@ -51,7 +51,7 @@ class Square:
         return self.__size ** 2
 
     def my_print(self):
-        """Creates a public method that prints square based on its size and puts spaces"""
+        """Creates a public method that prints square based on its size"""
         if self.__size == 0:
             print()
             return
