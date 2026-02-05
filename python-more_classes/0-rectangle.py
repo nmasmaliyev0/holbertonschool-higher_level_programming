@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""This module introduces basic Python class structure and syntax."""
+
+
 class Rectangle:
-    def __init__(self):
-        pass
+    """This class represents a rectangle."""
+    pass
