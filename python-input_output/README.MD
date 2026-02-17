@@ -1,1 +1,0 @@
-# Holberton Python input-output tasks
