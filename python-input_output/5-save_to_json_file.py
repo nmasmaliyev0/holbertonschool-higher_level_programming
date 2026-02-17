@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """This module provides basic understanding of json strings"""
 import json
 
