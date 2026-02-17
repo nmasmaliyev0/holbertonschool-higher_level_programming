@@ -7,7 +7,7 @@ load_from_json_file = __import__("6-load_from_json_file").load_from_json_file
 
 def main():
     """This function loads data from a file and adds args"""
-    filename = "tests/add_item.json"
+    filename = "add_item.json"
 
     try:
         my_list = load_from_json_file(filename)
