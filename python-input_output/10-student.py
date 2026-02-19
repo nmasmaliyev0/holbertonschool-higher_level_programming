@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module shows a way to turn class instances to dicts by filtering"""
+"""This module shows a way to turn class instances to dicts"""
 
 
 class Student:
