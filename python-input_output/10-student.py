@@ -11,7 +11,7 @@ class Student:
         self.age = age
 
     def to_json(self, attrs=None):
-        """Returns dict represantation of Student based on given keys"""
+        """Returns dict represantation of Student based on keys"""
         if isinstance(attrs, list) and all(isinstance(attr, str) for attr in attrs):
             new_dict = {}
 
