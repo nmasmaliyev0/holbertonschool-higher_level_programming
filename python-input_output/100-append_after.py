@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""This module works on adding string after certain string"""
+
+
 def append_after(filename="", search_string="", new_string=""):
+    """Adds new string after given string"""
     with open(filename, "r+") as file:
         lines = file.readlines()
 
