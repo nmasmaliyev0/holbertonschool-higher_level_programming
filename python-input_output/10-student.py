@@ -12,14 +12,14 @@ class Student:
 
     def to_json(self, attrs=None):
         """Returns dict represantation of Student based on keys"""
-        if isinstance(attrs, list) and \
-            all(isinstance(attr, str) for attr in attrs):
-            new_dict = {}
+        if isinstance(attrs, list):
+            if all(isinstance(attr, str) for attr in attrs):
+                new_dict = {}
 
-            for attr in attrs:
-                if attr in self.__dict__:
-                    new_dict[attr] = self.__dict__[attr]
+                for attr in attrs:
+                    if attr in self.__dict__:
+                        new_dict[attr] = self.__dict__[attr]
 
-            return new_dict
+                return new_dict
 
         return self.__dict__
