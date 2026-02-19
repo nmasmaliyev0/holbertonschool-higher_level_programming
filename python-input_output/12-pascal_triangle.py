@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""This module shows how to craete a Pascal triangle"""
+
+
 def pascal_triangle(n):
+    """Cretes a Pascal triangle based on the given n"""
     triangle = []
 
     for i in range(n):
