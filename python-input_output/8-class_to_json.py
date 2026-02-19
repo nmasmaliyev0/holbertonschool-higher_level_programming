@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module provides a simple way to turn class instances into dictionaries"""
+"""This module provides a way to turn class instances into dicts"""
 
 
 def class_to_json(obj):
